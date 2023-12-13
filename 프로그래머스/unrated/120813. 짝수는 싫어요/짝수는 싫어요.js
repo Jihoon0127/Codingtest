@@ -5,8 +5,7 @@ function solution(n) {
     
     for(let i = 0 ; n>=i; i++){
         if(i%2 == 1){
-            result[num] = i;
-            num++;
+            result.push(i)
         }
     }
     return  result.sort((a,b)=>a-b)
