@@ -5,5 +5,5 @@ function solution(phone_number) {
        phone_number = phone_number.replace(phone_number[i],'*')
     }
     
-    return phone_number
+    return phone_number;
 }
