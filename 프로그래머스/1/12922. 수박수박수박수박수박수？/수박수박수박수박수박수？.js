@@ -8,7 +8,7 @@ function solution(n) {
             sum += '박'
         }
     }
-   return sum
+   return sum ;
 }
 
 
