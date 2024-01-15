@@ -5,9 +5,12 @@ function solution(n) {
         if(i%2 == 1){
             odd += i;
         }else{
-            even += i*i ;
+            even += Math.pow(i,2) ;
         }
     }
+    
+
+    
     
     
     return n % 2 === 1 ? odd : even ; 
