@@ -1,7 +1,8 @@
 function solution(n, k) {
     let result = [];
-    for(let i = k, j = 1; i*j <= n ; j++){
-        result.push(i*j);
+    for(let i = k; i <= n ; i++){
+        if(i % k == 0)
+        result.push(i);
     }
     return result;
 }
