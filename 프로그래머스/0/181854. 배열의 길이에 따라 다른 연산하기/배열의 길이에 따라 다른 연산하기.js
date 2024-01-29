@@ -1,13 +1,7 @@
 function solution(arr, n) {
-    for(let i = 0 ; i<= arr.length-1 ; i++){
-        if(arr.length %2 ==0){
-            i%2 === 1 ? arr[i]+=n : arr[i]
-        }else{
-            i%2 === 0 ? arr[i]+=n : arr[i]
-        }
-        
-    }
-    return arr
+    
+  return arr.length%2 ===0 ? arr.map((a,idx)=> idx%2 ==0 ? a : a+n ) : arr.map((a,idx)=> idx%2 ==1? a : a+n )
+    
     
       
 }
