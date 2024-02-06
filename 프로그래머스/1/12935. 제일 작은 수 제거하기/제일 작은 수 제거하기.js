@@ -7,6 +7,6 @@ function solution(arr) {
     if(abc.length >0){
         return abc
     }else{
-        return [-1]
+        return [-1];
     }
 }
